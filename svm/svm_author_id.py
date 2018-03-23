@@ -38,7 +38,7 @@ print "training time:", round(time()-t0, 3), "s"
 
 clf.fit(features_train, labels_train)
 print clf.score(features_test, labels_test)
-# print plt.plot(features_test, pred)
+plt.plot(features_test, pred)
 
 #########################################################
 
